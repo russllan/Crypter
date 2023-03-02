@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 81px;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.container .left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.container .left > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .left div > a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #23262F;
+}
+.container .left a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777E91;
+}
+.container .left a:hover{
+    color: #23262F;
+}
+.container .left img {
+    width: fit-content;
+}
+.container .left .verticalLine{
+    border: 2px solid #E6E8EC;
+    height: 40px;
+    border-radius: 2px;
+}
+
+/*right header */
+
+.container .right{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+}
+.container .right input {
+    padding: 5px 30px ;
+    border-radius: 5px;
+    border: 1px solid #E6E8EC;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+.container .right .btnSearch{
+    border: none;
+    position: relative;
+    right: 30px;
+    top: 3px;
+    border-radius: 45px;
+}
+.container .right .btnUpload, .btnConnect{
+    padding: 12px 16px;
+    border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    background-color: #FCFCFD;
+    border: 1px solid #E6E8EC;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #23262F;
+}
+.container .right .btnConnect:hover{
+    color: #FCFCFD;
+    background: #3772FF;
+}
+.container .right .btnUpload:hover{
+    color:#FCFCFD;
+    background: #3772FF;
+}
+.container .right .circle{
+    background: green;
+    border-radius: 40px;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    right: 32px;
+    bottom: 15px;
+}
