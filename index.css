@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*header*/
 header{
     width: 100%;
     height: 81px;
@@ -111,4 +112,194 @@ header{
     position: relative;
     right: 32px;
     bottom: 15px;
+}
+
+/*main*/
+
+main{
+    width: 100%;
+    height: 190vh;
+}
+.mainContainer{
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 128px;
+}
+.mainContainer .txtContent{
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.mainContainer .txtContent .btnSearch{
+    width: fit-content;
+    border: none;
+    border-radius: 90px;
+    padding: 12px 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #23262F;
+    background-color: transparent;
+    border: 1px solid #E6E8EC;
+}
+
+.mainContainer .mainCreator{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.mainContainer .mainCreator .left{
+    width: 65%;
+}
+.mainContainer .mainCreator .left .mainPhoto{
+    height: 800px;
+    width: 640px;
+    border-radius: 16px;
+}
+.mainContainer .mainCreator .left .underImg{
+    position: relative;
+    bottom: 55px;
+    left: 0px;
+}
+.mainContainer .mainCreator .right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mainContainer .mainCreator .right > h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #23262F;
+}
+.mainContainer .mainCreator .right .user{
+    display: flex;
+    gap: 65px;
+}
+.mainContainer .mainCreator .right .user .wrapperUser{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mainContainer .mainCreator .right .user .wrapperUser .transparentSpan{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+.mainContainer .mainCreator .right .user .wrapperUser .ordinary{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #23262F;
+}
+.mainContainer .mainCreator .right .user .wrapperUser .avatar{
+    border-radius: 90px;
+    width: 35px;
+}
+.mainContainer .mainCreator .current{
+    width: 352px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 24px;
+    width: 352px;
+    height: 296px;
+    background: #FCFCFD;
+    border: 2px solid #E6E8EC;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 24px;
+    /* padding: 32px 0px; */
+}
+.mainContainer .mainCreator .current .ordinary{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #23262F;
+}
+.mainContainer .mainCreator .current .transparentSpan{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #777E91;
+}
+.mainContainer .mainCreator .current .wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainContainer .mainCreator .current .wrapper .number{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #141416;
+}
+.mainContainer .mainCreator .current .currentWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContainer .mainCreator .right .currentBottom{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mainContainer .mainCreator .right .currentBottom > button{
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border: 2px solid #E6E8EC;
+    padding: 12px 0px;
+    background-color: transparent;
+    color: #23262F;
+    border-radius: 90px;
+    cursor: pointer;
+}
+.mainContainer .mainCreator .right .currentBottom > button:hover{
+    background: #3772FF;
+    color: #FCFCFD;
+}
+.mainContainer .mainCreator .right .arrows{
+    display: flex;
+    gap: 34px;
+    cursor: pointer;
+}
+.mainContainer .mainCreator .right img:hover{
+    border: 1px solid #E6E8EC;
 }
